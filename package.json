@@ -1,0 +1,29 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "cool book app",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c --watch",
+    "start": "live-server"
+  },
+  "keywords": [
+    "books"
+  ],
+  "repository": {  
+  "type": "git",  
+  "url": "git+https://github.com/midagaymard/BooksTest.git"  
+  },
+  "author": "Elbrus Khudalov",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "eslint": "^9.39.2",
+    "globals": "^17.1.0",
+    "on-change": "^6.0.1",
+    "rollup": "^4.56.0",
+    "rollup-plugin-css-only": "^4.5.5"
+  }
+}
